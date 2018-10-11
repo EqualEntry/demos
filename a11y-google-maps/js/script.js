@@ -538,7 +538,7 @@ function updateTableView() {
       var marker = clusters[i].markers_[j];
       html += '<tr>' +
         // '<td>'+n+'</td>' +
-        '<td scope="row">' + marker.address + '</td>' +
+        '<th scope="row">' + marker.address + '</th>' +
         '<td ' + (sortPoint ? '' : 'hidden') + '>' + (sortPoint ? formatDistance(marker.distance_to_sort_point) : '') + '</td>' +
         '<td>' + marker.date + '</td>' +
         '</tr>';
